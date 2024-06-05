@@ -1,5 +1,6 @@
 body{
     font-family: "Poppins", sans-serif;
+    background: radial-gradient(#fff,#ebe78a);
 }
 
 body div .small-container{
@@ -542,5 +543,12 @@ form a{
     }
     .cart-info p{
         display: none;
+    }
+    .body {
+        display: flex;
+        background: radial-gradient(#fff,#ebe78a);
+    }
+    .header{
+        background: radial-gradient(#fff,#ebe78a);
     }
 }
