@@ -310,6 +310,7 @@ ul{
     }
     .footer{
         width: 250%;
+        position: fixed;
        }
 }
 
