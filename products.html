@@ -30,17 +30,28 @@
          
 
   <div class="small-container">
+    <h2>All Products</h2>
     <div class="row row-2">
-        <h2>All Products</h2>
-        <select>
-            <option >Default</option>
-            <option >Price</option>
-            <option >Popular</option>
-            <option >Ratings</option>
-            <option >Sale</option>
+        <label for="sort">Sort By:</label>
+        <select id="sort" onchange="sortProducts()">
+            <option value="name">Name</option>
+            <option value="price">Price</option>
         </select>
     </div>
-    <div class="row">
+    
+    <div class="row row-2">
+        <label for="filter">Filter By Category:</label>
+        <select id="filter" onchange="filterProducts()">
+            <option value="all">All</option>
+            <option value="electronics">Electronics</option>
+            <option value="clothing">Clothing</option>
+            <option value="accessories">Accessories</option>
+        </select>
+    </div>
+  </div>
+    
+    <div id="product-container">
+        <div class="row">
         <div class="col-4">
             <a href="sherwani-details.html"><img src="assets_\buy-1.jpg"></a>
             <a href="sherwani-details.html"><h4>Cream Sherwani</h4></a>
@@ -243,7 +254,6 @@
         </div>
       </div>
         </div>
-      </div>
     
        <div class="page-btn">
         <span>1</span>
@@ -252,8 +262,8 @@
         <span>4</span>
         <span>&#8594;</span>
        </div>
-
-    </div>
+     </div>
+   
 
 
 <!---footer----->
@@ -312,6 +322,5 @@
         }
     }
 </script>
-
 </body>
 </html>
