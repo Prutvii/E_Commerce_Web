@@ -47,5 +47,5 @@ Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions it gonna be really amazing to work together..!
 
-# Live link of website for reference:
+# Live link:
 https://prutvii.github.io/E_Commerce_Web/
